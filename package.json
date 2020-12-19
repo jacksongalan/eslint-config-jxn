@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-jxn",
+  "version": "1.0.0",
+  "description": "A shareable Eslint config",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/eslint/bin/eslint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacksongalan/eslint-config-jxn.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Jackson Galan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacksongalan/eslint-config-jxn/issues"
+  },
+  "homepage": "https://github.com/jacksongalan/eslint-config-jxn#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.16.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.16"
+  }
+}
